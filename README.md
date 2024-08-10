@@ -9,6 +9,7 @@ The **Book Management REST API** is a backend service that provides a set of end
 - **CRUD Operations**: Create, read, update, and delete book entries.
 - **Search and Filter**: Search books by title, author, or genre.
 - **Authentication**: Secure endpoints with authentication mechanisms (if applicable).
+- ** Swagger API ** : Swagger API end point where API's are documented how to use 
 
 ## Installation
 
@@ -44,13 +45,17 @@ Ensure you have a .env file in the root directory with the necessary environment
 API Endpoints
 Books
 GET /api/books: Retrieve a list of all books.
+
 POST /api/books: Add a new book.
+
 GET /api/books/
 : Retrieve a book by its ID.
 PUT /api/books/
 : Update a book by its ID.
+
 DELETE /api/books/
 : Delete a book by its ID.
+
 Authentication (if applicable)
 POST /api/auth/login: Log in and receive a token.
 POST /api/auth/register: Register a new user.
